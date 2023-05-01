@@ -41,9 +41,13 @@ Additionally, we are interested in looking for latent patterns across cities tha
 
 **Dataset Link:**
 
-Google Drive: https://drive.google.com/file/d/1HvzqJBG5WATxag7b8K8PpqvJYyuxDiei/view?usp=share_link
+*Google Drive:*
 
-**Dropbox Link (backup):** 
+ https://drive.google.com/file/d/1HvzqJBG5WATxag7b8K8PpqvJYyuxDiei/view?usp=share_link
+
+**Backup Link:** 
+
+*Dropbox*
 
 https://www.dropbox.com/s/akbbq261ssdpgpu/data_all.csv?dl=0
 
@@ -60,6 +64,11 @@ The COVID data came from the New York Times COVID Tracking Github page. (https:/
 
 We did not end up using crime data due to question/time/quality limitations, but we downloaded this from the FBI Crime Data Explorer for 2020 at the following url: https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home
 
-### Running the Project / Getting Started
+### Branching Strategy
+
+We created a branch for each question independnetly (Q1 and Q3, as we originally had a Q2 that got dropped) and whenever we were working on a certain question we were using that branch. We then pushed those commits and put in pull requests to merge them into the main branch. We used pull requests and added comments as we reviewed changes in pull requests. We used conventional commits (chor, feat, etc) and each team member followed this strategy. We used Jupyter lab git extension to reserve any merge conflicts.
+
+
+## Running the Project / Getting Started
 
 In this section, you include instructions on how to run your project. Think of them as steps. Include which notebook to run first and what each notebook contains. 
