@@ -24,11 +24,13 @@ We would like to acknowledge that this research project includes some data on cr
 ### Project Description
 City population has an impact on economic growth, political representation, and cultural development. Many big cities in the United States, including San Francisco, New York, Washington D.C., and Boston, experienced population loss during the pandemic, which poses challenges to policymakers due to funding gaps and the reallocation of land use. In this project, we aim to explore to what extent population change is predictable with machine learning algorithms. We classify cities as growing/shrinking depending on their population change between 2019 and 2020 and then use classification algorithms to try and predict this using data from the ACS on the city level as well as COVID case and death data from the NYTimes Covid Tracking project.  
 
-Additionally, we are interested in looking for latent patterns across cities that may not be obvious at first. To this end, we employ several unsupervised clustering algorithms to try to find detect patterns in our city wide dataset. By performing unsupervised clustering algorithms on cities, we hope to provide insights into policy makers and residents who may be looking for a list of cities that are similar along a wide variety of important demographic data. 
+Additionally, we are interested in looking for latent patterns across cities that may not be obvious at first. To this end, we employ several unsupervised clustering algorithms to try to detect patterns in our city wide dataset. By performing unsupervised clustering algorithms on cities, we hope to provide insights for policy makers and residents who may be looking for a list of cities that are similar along a wide variety of important demographic data. 
 
 **Key Words** - Population Growth, Machine Learning, Clustering, Classification, Census Data, ACS Data, Covid-19, Urban Analysis
 
-**Questions** 
+--
+
+### Questions
 
 1. Why did major cities experience different rates of population change during the pandemic? (target variable: population change 2019-2020)
 2. What are some ways we can cluster cities into categories based on all available data, and will this reveal any geographical patterns about city development? (unsupervised learning, clustering)
