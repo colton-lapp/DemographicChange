@@ -71,4 +71,16 @@ We created a branch for each question independnetly (Q1 and Q3, as we originally
 
 ## Running the Project / Getting Started
 
-In this section, you include instructions on how to run your project. Think of them as steps. Include which notebook to run first and what each notebook contains. 
+1. Download data from the link and put in .../data/ subdirectory in this repo
+Step
+
+2. Run Q1_Classification-FINAL.ipnyb
+
+3. Run Q3_Clustering-FINAL.ipnyb
+
+
+**Notebook One - Classification of Growth Rates**
+
+The first classification script reads in the data, does some final data cleaning we missed in the first step, does exploratory data analysis as well as statistical analysis to determine what the proper feature engineering should be, and then estimates 5 models across 5 datasets. We used 5 different datasets for each model (where each model has progressively more feature engineering) to see how effective our feature engineering was. Our last dataset is actually 3 datasets corresponding to different slices of our dataset depending on city size. We run a model for small cities, medium cities and large cities to see if this segmentation improves our results. We then tune every single model on every single dataset. We do all these things in functions and save the ouput in dictionaries. We can then pass that dictionary into a function to graph the output. Overall, the best model seems to be the random forest model and all of our feature engineering has mild benefits that are uneven across groups and models. We got okay accuracy at around 60%. 
+
+
