@@ -5,21 +5,18 @@
 ### Understanding Urban Depopulation
 ##### An analysis of shrinking cities in the US with machine learning approaches 
 
+### Final project for "Machine Learning Foundations in Python" - course 90-803 in Spring 2023
 --
 
 ### Authors
 
-**Chi-Shiun Tsai** // *chishiut@andrew.cmu.edu* // Github: dcstsai
-
 **Colton Lapp** // *cglapp@andrew.cmu.edu* // Github: colton-lapp
 
---
+**Chi-Shiun Tsai** // *chishiut@andrew.cmu.edu* // Github: dcstsai
 
-### Disclaimer / Sensitive Content
-
-We would like to acknowledge that this research project includes some data on crime and COVID-19, which may have affected some individuals or communities more intensely than others. While the majority of the content in this project is suitable for most audiences, we understand that these topics may be sensitive to some readers. We would like to assure our readers that we have strived to approach this research with sensitivity and respect towards those who have been impacted by these issues. Our aim is to provide factual and informative research while acknowledging the seriousness of both crime and COVID-19, and their effects on individuals and communities.
 
 --
+
 
 ### Project Description
 City population has an impact on economic growth, political representation, and cultural development. Many big cities in the United States, including San Francisco, New York, Washington D.C., and Boston, experienced population loss during the pandemic, which poses challenges to policymakers due to funding gaps and the reallocation of land use. In this project, we aim to explore to what extent population change is predictable with machine learning algorithms. We classify cities as growing/shrinking depending on their population change between 2019 and 2020 and then use classification algorithms to try and predict this using data from the ACS on the city level as well as COVID case and death data from the NYTimes Covid Tracking project.  
